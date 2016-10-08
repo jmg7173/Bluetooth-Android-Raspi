@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends Activity implements View.OnClickListener {
     private static final String TAG = "Main";
 
     private static final int REQUEST_CONNECT_DEVICE=1;
@@ -65,7 +65,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.e(TAG, "onCreate");
         setContentView(R.layout.activity_main);
 
         btnConnect = (Button) findViewById(R.id.btn_connect);

@@ -19,25 +19,6 @@
         android:layout_alignParentStart="true"
         android:textSize="20dp" />
 
-    <Button
-        android:id="@+id/btn_mqttconnect"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MQTT Connect"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/txt_result"
-        />
-    <Button
-        android:id="@+id/btn_connect"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BT Connect"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/txt_result"
-        android:layout_marginTop="49dp" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="350dp"
@@ -58,5 +39,22 @@
             android:layout_height="100dp"
             layout="@layout/arrowbtn_row3"/>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_mqttconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MQTT Connect"
+        android:layout_below="@+id/txt_result"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp" />
+
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BT Connect"
+        android:layout_below="@+id/btn_mqttconnect"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
