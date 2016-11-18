@@ -9,9 +9,20 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/org.eclipse.paho.android.sample" />
+            <option value="$PROJECT_DIR$/org.eclipse.paho.android.service" />
+            <option value="$PROJECT_DIR$/paho.mqtt.android.example" />
           </set>
         </option>
-        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/org.eclipse.paho.android.sample" />
+            <option value="$PROJECT_DIR$/org.eclipse.paho.android.service" />
+            <option value="$PROJECT_DIR$/paho.mqtt.android.example" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>
